@@ -1,0 +1,225 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.bg {
+  background-color: lightgray;
+}
+#nameIcons {
+  margin: 30px 0px 20px 35px;
+  color: #505050;
+}
+#template_card {
+  width: 80%;
+  height: 82vh;
+  background-color: #f0f0f0;
+  margin-left: 35px;
+  padding: 3rem;
+}
+#section1__bg {
+  position: absolute;
+  width: 83.7%;
+  top: 4.2rem;
+  left: 42px;
+  background-color: orange;
+  padding: 25px;
+}
+#section1_details {
+  margin: 25px 0px;
+  font-weight: bold;
+}
+#name {
+  font-size: 35px;
+  margin: 0px;
+}
+button {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: small;
+  font-weight: 600;
+  height: 2.6rem;
+  width: auto;
+  padding: 10px 25px;
+  background-color: #c70039;
+  color: white;
+  margin-left: -5px;
+  margin-right: 20px;
+  border-radius: 25px;
+}
+.picture {
+  width: 8.8rem;
+  height: 10rem;
+  background-color: #c70039;
+  margin-right: 3.5rem;
+  margin-left: 1.2rem;
+}
+.section__layout {
+  display: flex;
+}
+.section__head {
+  font-weight: 900;
+  font-size: 150%;
+}
+#about_me {
+  position: relative;
+  top: 9.5rem;
+}
+#prof_skills {
+  position: relative;
+  top: 9rem;
+}
+.side1 {
+  width: 50%;
+  text-align: justify;
+  font-size: 15px;
+}
+.side2 {
+  width: 50%;
+  font-size: 15px;
+  display: flex;
+  margin-left: 45px;
+  margin-top: 60px;
+}
+.contact__header {
+  font-weight: 1000;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #404040;
+}
+.contact__data {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 30px;
+  color: #696969;
+}
+#nameIcons {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10rem;
+}
+
+.progressBar {
+  height: 15px;
+  width: 22rem;
+  border-radius: 25px;
+  background-color: lightgray;
+  margin: 12px 0px;
+}
+#side2_ProfSkills {
+  margin-left: 40px;
+  margin-top: 71px;
+}
+.skillBar {
+  height: 15px;
+  width: 22rem;
+  border-radius: 25px 0px 0px 25px;
+  background-color: orange;
+  position: absolute;
+}
+#html {
+  width: 20rem;
+  position: relative;
+  top: -27px;
+}
+#css {
+  width: 20rem;
+  position: relative;
+  top: -27px;
+}
+#js {
+  width: 16rem;
+  position: relative;
+  top: -27px;
+}
+#react {
+  width: 16rem;
+  position: relative;
+  top: -27px;
+}
+#tailwind {
+  width: 18rem;
+  position: relative;
+  top: -27px;
+}
+#nextjs {
+  width: 14rem;
+  position: relative;
+  top: -27px;
+}
+.hireMe {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  z-index: 10;
+  background-color: #c70039;
+  color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.hireMe.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+.hireMe__header {
+  font-size: 40px;
+  display: flex;
+  padding: 10px 15px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+.hireMe__header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.hireMe__header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+}
+.hireMe__body {
+  padding: 10px 15px;
+  display: flex;
+}
+.hireMeBody__header {
+  font-size: 20px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.hireMeBody__data {
+  font-size: 20px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
