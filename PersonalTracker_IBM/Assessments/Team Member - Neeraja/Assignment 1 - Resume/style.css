@@ -1,0 +1,211 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+}
+.icons {
+   
+    color: #505050;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+  .links{
+    padding-left: 83%;
+  }
+.header{
+    background-color: rgba(0, 0, 255, 0.514);
+}
+.image{
+    width:11%;
+    height:15%;
+    margin-left: 3%;
+    margin-top: 4%;
+    border: 3px solid white;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.hero{
+    padding-left: 7%;
+}
+.name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    color:white;
+    font-size: 40px;
+}
+.prof{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    color: white;
+    font-size: 20px;
+}
+.button1{
+    padding: 2%;
+    background-color: white;
+    border:1px solid white;
+    border-radius: 20px;
+
+}
+.button2{
+    padding: 2%;
+    margin-left: 1%;
+    background-color: rgba(23, 247, 23, 0.856);
+    border:1px solid rgba(23, 247, 23, 0.856);
+    color:white;
+    border-radius:20px;
+    margin-bottom: 5%;
+}
+.firstsec{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0.5px solid rgba(128, 128, 128, 0.116);
+}
+.heading{
+    font-weight: bold;
+    margin-left: 4%;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+.desc{
+    font-size: 15px;
+    margin-left: 4%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+.personalinfo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+.professionalskills{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    margin-left: 1%;
+}
+.head{
+    margin-left: 5px;
+}
+.skills_section{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skills_main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    margin-top: 5px;
+    background-color: rgba(128, 128, 128, 0.461);
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 238, 255, 0.906);
+    border-radius: 25px;
+}
+.skill_bar .bar .html{
+    width: 90%;
+    animation: html 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .css{
+    width: 85%;
+    animation: css 2s;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+.skill_bar .bar .js{
+    width: 80%;
+    animation: css 2s;
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .react{
+    width: 75%;
+    animation: react 2s;
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }100%{
+        width: 75%;
+    }
+}
+.skill_bar .bar .node{
+    width: 70%;
+    animation: node 2s;
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .express{
+    width: 65%;
+    animation: express 2s;
+}
+@keyframes express {
+    0%{
+        width: 0%;
+    }100%{
+        width: 65%;
+    }
+}
+input{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding: 1%;
+    width: 30%;
+}
+label{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode','Geneva', 'Verdana','sans-serif'; 
+}
+.submitbutton{
+    margin-top: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: white;
+}
+.contact{
+    border: 0.5px solid rgba(128, 128, 128, 0.116);
+    padding: 1%;
+    background-color: rgba(240, 255, 255, 0.683);
+}
