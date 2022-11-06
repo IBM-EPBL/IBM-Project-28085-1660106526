@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appName {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #af3b49;
+  text-decoration: none;
+}
+.landingLink {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0rem 1rem;
+  padding: 0.3rem 1rem;
+  color: #af3b49;
+}
+.landingLink:hover {
+  border-bottom: 4px solid #af3b49;
+}
+/* .landingLink:active {
+  border-bottom: 4px solid #af3b49;
+} */
+
+.active {
+  border-bottom: 4px solid #af3b49;
+}

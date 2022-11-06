@@ -11,17 +11,24 @@
     <title>Expense Tracker Landing Page</title>
   </head>
   <body>
-    <nav>
-      <div class="appName">Expense Tracker</div>
-      <div class="rightNav">
-        <span><a href="/aboutus" class=""> About Us</a></span>
-        <span><a href="/contactus" class=""> Contact Us</a></span>
-        <span><a href="/signin" class="">Sign In</a> </span>
-        <span><a href="/signup" class="">Sign Up</a></span>
+    {% include 'Navbar.html' %}
+    <div class="contents">
+      <div class="leftContents">
+        <p class="message1">The Expense Tracker for your needs</p>
+        <p class="message2">Track all your expenses here...</p>
+        <div>
+          <a href="/dashboard" class="getStartedButton">Get Started -></a>
+        </div>
       </div>
-    </nav>
-    <p>The Expense Tracker for your needs</p>
-    <p>Track all your expenses here...</p>
-    <div><a href="/home" class="">Get Started -> </a></div>
+      <div class="rightContents">
+        <img
+          src="../static/images/landing_page_img.png"
+          alt="Landing Page Gif woman working on laptop"
+          class="landing_page_gif"
+          height="90%"
+          width="100%"
+        />
+      </div>
+    </div>
   </body>
 </html>
