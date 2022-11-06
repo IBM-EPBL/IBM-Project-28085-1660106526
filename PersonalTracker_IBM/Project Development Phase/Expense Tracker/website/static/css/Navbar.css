@@ -2,7 +2,6 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-
 .appName {
   font-size: 2.5rem;
   font-weight: bold;
@@ -20,10 +19,6 @@ nav {
 .landingLink:hover {
   border-bottom: 4px solid #af3b49;
 }
-/* .landingLink:active {
-  border-bottom: 4px solid #af3b49;
-} */
-
 .active {
   border-bottom: 4px solid #af3b49;
 }

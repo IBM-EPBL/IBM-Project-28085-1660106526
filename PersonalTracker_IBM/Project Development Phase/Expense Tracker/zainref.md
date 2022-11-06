@@ -24,3 +24,14 @@ brightred - #d32840 rgba(211,40,64,255)
 darkred - #800b2d rgba(128,11,45,255)
 
 {% include 'Navbar.html' %}
+
+-----for inserting icons-------
+{% block head %}
+{{ super() }}
+
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" 
+type="image/x-icon">
+<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}"
+type="image/x-icon">
+
+{% endblock %}
