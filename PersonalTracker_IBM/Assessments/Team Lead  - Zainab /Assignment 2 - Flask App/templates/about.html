@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about page</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/main.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/about.css')}}"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="left">
+        <div id="home"><a href="/">Home</a></div>
+        <div id="about"><a href="/about">About</a></div>
+      </div>
+      <div class="right">
+        <div id="signin"><a href="/signin">Sign In</a></div>
+        <div id="signup"><a href="/signup">Sign Up</a></div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="/static/images/about_me.jpg" alt="img" />
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Me</span></h1>
+        <h2>My first Flask project</h2>
+        <p>
+          Hey!!!This is an exciting experience i am loving this process. This is
+          so much fun. Seeing your coding results come live is genuinely a
+          soothing process. I hope I benefit from this project and continue my
+          journey through more prjects.This is exciting and intriguing at the
+          same time. Looking forward to develop my skills and do more projects.
+          Can't wait for my website to finish. Yayyyy!!!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

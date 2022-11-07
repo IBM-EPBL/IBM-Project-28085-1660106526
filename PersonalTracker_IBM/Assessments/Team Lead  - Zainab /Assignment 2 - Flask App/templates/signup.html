@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/main.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/home.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/signup.css')}}"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <div class="navbar">
+        <div class="left">
+          <div id="home"><a href="/">Home</a></div>
+          <div id="about"><a href="/about">About</a></div>
+        </div>
+        <div class="right">
+          <div id="signin"><a href="/signin">Sign In</a></div>
+          <div id="signup"><a href="/signup">Sign Up</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="card"></div>
+    <div class="card_data">
+      <div class="left_card">
+        <img src="/static/images/signup_img.png" class="signin_signup_img" />
+      </div>
+      <div class="right_card">
+        <h1 class="text">Sign Up</h1>
+        <form>
+          <div class="form-outline mb-4">
+            <input
+              type="text"
+              id="email"
+              class="form-control"
+              placeholder="Full Name"
+            />
+          </div>
+          <div class="form-outline mb-4">
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              placeholder="Email address"
+            />
+          </div>
+          <div class="form-outline mb-4">
+
+          <input
+          type="text"
+          id="email"
+          class="form-control"
+          placeholder="Username"
+        />
+      </div>
+
+        <div class="form-outline input-sm mb-4">
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            placeholder="Password"
+          />
+        </div>
+
+        <div class="form-outline input-sm mb-4">
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            placeholder="Repeat Password"
+          />
+        </div>
+                  <!-- 2 column grid layout for inline styling -->
+                  <div class="row mb-4">
+                    <div class="col d-flex justify-content-center"></div>
+                  </div>
+        
+                  <!-- Submit button -->
+                  <button type="button" class="btn btn-primary btn-block mb-4">
+                    Register
+                  </button>
+           <div class="text-center">
+                    <p>
+                      Already a member?
+                      <a href="/signin">Log In</a>
+                    </p>
+                  </div>
+      </div>
+
+
+
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+from flask import Flask
+from markupsafe import escape 
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "<p>Hello Zainab!!! Welcome to Home Page<p>"
+
+@app.route('/about')
+def about():
+    return "About Page"
+
+@app.route('/signIn')
+def signIn():
+    return "SignIn Page"
+
+@app.route('/signUp')
+def signUp():
+    return "SignUp Page"
+
+@app.route('/user/<username>')
+def show_user_profile(username):
+    #show user profile for that user
+    #return "Hello, "+ username 
+    return f'User {escape(username)}'
+
+@app.route('/post/<int:post_id>')
+def show_post(post_id):
+    #show post with the given id, the id is an integer
+    return f'Post {escape(post_id)}'

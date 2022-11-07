@@ -1,0 +1,73 @@
+h1 {
+  color: blueviolet;
+}
+#about {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 90%;
+  height: 77%;
+  display: flex;
+  padding: 3rem;
+}
+.col-left {
+  width: 40%;
+  height: 80%;
+}
+.col-right {
+  padding: 4rem 3rem;
+  width: 60%;
+  height: 80%;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: justify;
+}
+#about .col-right h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 0.2rem;
+}
+#about .col-right p {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+#about .col-left .about-img {
+  position: absolute;
+  height: 70%;
+  width: 40%;
+  border: 10px solid white;
+  margin-right: 2rem;
+}
+#about .col-left .about-img::after {
+  content: " ";
+  position: absolute;
+  left: -33px;
+  top: 19px;
+  height: 98%;
+  width: 98%;
+  border: 7px solid crimson;
+  z-index: -1;
+}
+
+.navbar {
+  color: white;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  position: absolute;
+  top: 0;
+  font-size: 3rem;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.left,
+.right {
+  display: flex;
+}
+#home,
+#about,
+#signup,
+#signin {
+  padding: 8px 30px;
+}

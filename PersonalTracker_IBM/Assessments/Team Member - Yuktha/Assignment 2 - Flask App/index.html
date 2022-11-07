@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index Page</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+	<center>
+	<h3>Profiles</h3>
+	<a href="/signup">ADD</a>
+	<br>
+	<table>
+		<thead>
+			<th>Id</th>
+			<th>Email </th>
+			<th>Password</th>	
+		</thead>
+		{% for data in profiles %}
+		<tbody>
+			<td>{{data.id}}</td>
+			<td>{{data.email}}</td>
+			<td>{{data.password}}</td>
+			<td><a href="/delete/{{data.id}}" type="button">Delete</a></td>
+		</tbody>
+		{% endfor%}
+	</table>
+</center>
+</body>
+</html>
