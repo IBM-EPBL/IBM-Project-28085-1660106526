@@ -14,20 +14,20 @@
 }
 .message1 {
   font-size: 4rem;
-  color: #af3b49;
+  color: #d32840;
   padding-bottom: 1.5rem;
 }
 .message2 {
   font-size: 1.8rem;
-  color: #af3b49;
+  color: #d32840;
   padding-bottom: 2.5rem;
 }
 .getStartedButton {
   text-decoration: none;
   font-size: 1.8rem;
-  color: #ffd481;
-  background-color: #af3b49;
-  border: 1px solid #af3b49;
+  color: #fff7e9;
+  background-color: #d32840;
+  border: 1px solid #d32840;
   border-radius: 0.5rem;
   padding: 0.3rem 0.8rem;
 }

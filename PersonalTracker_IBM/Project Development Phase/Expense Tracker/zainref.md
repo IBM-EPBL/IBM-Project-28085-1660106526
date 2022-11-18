@@ -35,3 +35,10 @@ type="image/x-icon">
 type="image/x-icon">
 
 {% endblock %}
+
+<script src="https://cdn.tailwindcss.com"></script> to add tailwind to that file
+
+af3b49
+ffd481
+d32840
+fff7e9

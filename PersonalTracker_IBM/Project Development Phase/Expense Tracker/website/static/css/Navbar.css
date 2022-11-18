@@ -5,7 +5,7 @@ nav {
 .appName {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #af3b49;
+  color: #d32840;
   text-decoration: none;
 }
 .landingLink {
@@ -14,11 +14,11 @@ nav {
   font-weight: 500;
   margin: 0rem 1rem;
   padding: 0.3rem 1rem;
-  color: #af3b49;
+  color: #d32840;
 }
 .landingLink:hover {
-  border-bottom: 4px solid #af3b49;
+  border-bottom: 4px solid #d32840;
 }
 .active {
-  border-bottom: 4px solid #af3b49;
+  border-bottom: 4px solid #d32840;
 }
