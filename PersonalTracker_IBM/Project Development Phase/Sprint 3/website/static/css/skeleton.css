@@ -1,0 +1,24 @@
+/* .sidebar {
+  height: 97vh;
+  width: max-content;
+  border-right: 4px solid #af3b49;
+  overflow-y: hidden;
+}
+.appName {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #af3b49;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+.tabs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.sidebarTab {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #af3b49;
+} */
