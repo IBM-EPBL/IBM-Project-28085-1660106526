@@ -27,9 +27,9 @@ def transactions():
 def addingExpenses():
     return render_template("addingExpenses.html")
 
-@views.route('/calendar')
-def calendar():
-    return render_template("calendar.html")
+@views.route('/categories')
+def categories():
+    return render_template("categories.html")
 
 @views.route('/reports')
 def reports():
