@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="{{url_for('static',filename='signIn.css')}}"
+      href="{{url_for('static',filename='css/signIn.css')}}"
     />
     <title>signIn</title>
   </head>
   <body>
+    {% include 'Navbar.html' %}
     <h1>Sign In Page</h1>
     <div class="signin">
       <form action="">
