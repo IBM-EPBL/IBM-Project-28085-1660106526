@@ -5,13 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      rel="stylesheet"
-      href="{{url_for('static',filename='css/signUp.css')}}"
+    rel="stylesheet"
+    href="{{url_for('static',filename='css/signIn.css')}}"
     />
-    <title>Sign Up</title>
+    <title>signIn</title>
   </head>
   <body>
     {% include 'Navbar.html' %}
-    <h1>Sign Up Page</h1>
+    <h1>Sign In Page</h1>
+    <div class="signin" style="border:1px solid rgb(30, 28, 28)">
+      <form action="">
+        <label for="username"><b>username</b></label>
+        <input type="text" placeholder="Enter username" name="username" required class="name"></br></br>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required class="psw"></br></br>
+      </form>
+       <p class="or">or</p>
+       <a href="/login" target="_blank"><button class="googlelogin">Signin with google</button></a>
+    </div>
   </body>
 </html>
