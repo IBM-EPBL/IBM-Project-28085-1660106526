@@ -1,4 +1,26 @@
 * {
-  background-color: #fff7e9;
-  margin: 0.4rem;
+    background-color: #fff7e9;
+    margin: 0.4rem;
+  }
+body{
+  color: red
+}
+.signup{
+ width:30%;
+ height: 50%;
+ margin: 3%;
+}
+.cancelbtn,.signupbtn,.name,.email,.psw,.psw-repeat,.username,.google,.login{
+  color: red;
+  border: 1px solid rgb(32, 30, 30);
+  padding: 1%;
+}
+.cancelbtn,.signupbtn,.or{
+  margin-left: 27%;
+}
+.google{
+  margin-left: 20%;
+}
+.or{
+  margin-left: 30%;
 }
