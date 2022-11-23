@@ -3,7 +3,7 @@
     margin: 0.4rem;
   }
 body{
-  color: rgb(222, 28, 28);
+  color: red
 }
 .signup{
  width:30%;
@@ -11,19 +11,16 @@ body{
  margin: 3%;
 }
 .cancelbtn,.signupbtn,.name,.email,.psw,.psw-repeat,.username,.google,.login{
-  color: rgb(222, 28, 28);
+  color: red;
   border: 1px solid rgb(32, 30, 30);
   padding: 1%;
 }
-.cancelbtn{
-  margin-left: 30%;
+.cancelbtn,.signupbtn,.or{
+  margin-left: 27%;
 }
 .google{
   margin-left: 20%;
 }
-.signupbtn{
-    margin-left: 28%;
-}
 .or{
-    margin-left: 32%;
+  margin-left: 30%;
 }

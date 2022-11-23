@@ -4,38 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="{{url_for('static',filename='css/signUp.css')}}"
-    />
     <title>Sign Up</title>
+    <link
+    rel="stylesheet"
+    href="{{url_for('static',filename='css/signUp.css')}}"
+  />
   </head>
   <body>
     {% include 'Navbar.html' %}
     <h1>Sign Up Page</h1>
-       <div class="signup">
-        <form action="" style="border:1px solid #ccc">
+       <section class="signup"  style="border:1px solid rgb(32, 30, 30)">
+        <form action="" class="hero">
             <label for="fullname"><b>Full Name</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
+            <input type="text" placeholder="Enter name" name="name" class="name" required></br></br>
             <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required></br></br>
-            <label for="username"><b>username</b></label>
-            <input type="text" placeholder="Enter username" name="uaername" required>
+            <input type="text" placeholder="Enter Email" name="email" class="email" required></br></br>
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter username" name="uaername" class="username" required></br></br>
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required></br></br>
+            <input type="password" placeholder="Enter Password" name="psw" class="psw" required></br></br>
             <label for="psw-repeat"><b>Repeat Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" required></br></br>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" class="psw-repeat" required></br></br>
             <div class="clearfix">
               <button type="button" class="cancelbtn">Cancel</button></br>
               <button type="submit" class="signupbtn">Sign Up</button>
-          </div>
         </form>
-      <hr>
-      <p>or</p>
-     <a href="/login" target="_blank"><button>sign up with google</button></a>
-     <p>or</p>
-     <p>Already have an account ?</p>
-     <a href="/signin" target="_blank"><button>login</button></a>
-    </div> 
+      <p class="or">or</p>
+     <a href="/login" target="_blank"><button class="google">sign up with google</button></a>
+    </section>
   </body>
 </html>

@@ -5,37 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      rel="stylesheet"
-      href="{{url_for('static',filename='css/signIn.css')}}"
+    rel="stylesheet"
+    href="{{url_for('static',filename='css/signIn.css')}}"
     />
     <title>signIn</title>
   </head>
   <body>
     {% include 'Navbar.html' %}
     <h1>Sign In Page</h1>
-    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-    <form action="/login" method="post">
-      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
-      <div class="form-group">
-        <input
-          autocomplete="off"
-          autofocus
-          class="form-control"
-          name="username"
-          placeholder="Username"
-          type="text"
-        />
-      </div>
-      <div class="form-group">
-        <input
-          class="form-control"
-          name="password"
-          placeholder="Password"
-          type="password"
-        />
-      </div>
-      <br />
-      <button class="btn btn-primary" type="submit">Log In</button>
-    </form>
+    <div class="signin" style="border:1px solid rgb(30, 28, 28)">
+      <form action="/dashboard">
+        <label for="username"><b>username</b></label>
+        <input type="text" placeholder="Enter username" name="uaername" required class="name"></br></br>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required class="psw"></br></br>
+        <a href="/dashboard" target="_blank"><button type="submit" class="signinbtn">Sign in</button></a>
+      </form>
+       <p class="or">or</p>
+       <a href="/login" target="_blank"><button class="googlelogin">Signin with google</button></a>
+    </div>
   </body>
 </html>
