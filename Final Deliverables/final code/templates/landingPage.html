@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='landingPage.css')}}"
+    />
+    <title>Expense Tracker Landing Page</title>
+  </head>
+  <body>
+    {% include 'Navbar.html' %}
+    <div class="contents">
+      <div class="leftContents">
+        <p class="message1">The Expense Tracker for your needs</p>
+        <p class="message2">Track all your expenses here...</p>
+        <div>
+          <a href="/dashboard" class="getStartedButton">Get Started -></a>
+        </div>
+      </div>
+      <div class="rightContents">
+        <img
+          src="../static/images/landing_page_img.png"
+          alt="Landing Page Gif woman working on laptop"
+          class="landing_page_gif"
+          height="90%"
+          width="100%"
+        />
+      </div>
+    </div>
+  </body>
+</html>
