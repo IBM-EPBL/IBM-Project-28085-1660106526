@@ -1,0 +1,39 @@
+* {
+    background-color: #fff7e9;
+    margin: 0.4rem;
+  }
+  .contents {
+    display: flex;
+    align-items: center;
+  }
+  .leftContents {
+    flex: 1 0;
+  }
+  .rightContents {
+    flex: 1 0;
+  }
+  .message1 {
+    font-size: 4rem;
+    color: #d32840;
+    padding-bottom: 1.5rem;
+  }
+  .message2 {
+    font-size: 1.8rem;
+    color: #d32840;
+    padding-bottom: 2.5rem;
+  }
+  .getStartedButton {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff7e9;
+    background-color: #d32840;
+    border: 1px solid #d32840;
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.8rem;
+  }
+  /* 
+  offwhite - #fff7e9 
+  eggyellow - #ffd481
+  brightred - #d32840
+  darkred - #af3b49
+   */

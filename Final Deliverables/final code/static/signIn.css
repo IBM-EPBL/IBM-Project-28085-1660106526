@@ -1,0 +1,23 @@
+* {
+    background-color: #fff7e9;
+    margin: 0.4rem;
+  }
+body{
+  color: rgb(222, 28, 28);
+}
+.signin{
+ width:30%;
+ height: 50%;
+ margin: 3%;
+}
+.name,.psw,.googlelogin,.signinbtn{
+  color: rgb(222, 28, 28);
+  border: 1px solid  rgb(30, 28, 28);
+  padding: 1%;
+}
+.googlelogin,.signinbtn{
+  margin-left: 25%;
+}
+.or{
+  padding-left: 35%;
+}
