@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link
+    rel="stylesheet"
+    href="{{url_for('static',filename='signUp.css')}}"
+  />
+  </head>
+  <body>
+    {% include 'Navbar.html' %}
+    <h1>Sign Up Page</h1>
+       <section class="signup"  style="border:1px solid rgb(32, 30, 30)">
+        <form action="/dashboard" class="hero">
+            <label for="fullname"><b>Full Name</b></label>
+            <input type="text" placeholder="Enter name" name="name" class="name" required></br></br>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" class="email" required></br></br>
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter username" name="uaername" class="username" required></br></br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" class="psw" required></br></br>
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" class="psw-repeat" required></br></br>
+            <div class="clearfix">
+              <button type="button" class="cancelbtn">Cancel</button></br>
+              <a href="/dashboard" target="_blank"><button type="submit" class="signupbtn">Sign Up</button></a>
+        </form>
+      <p class="or">or</p>
+     <a href="/login" target="_blank"><button class="google">sign up with google</button></a>
+    </section>
+  </body>
+</html>
